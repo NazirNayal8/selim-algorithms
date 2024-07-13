@@ -152,7 +152,7 @@ int dijkstra_distance(int start_node, int target_node) {
             }
         }
     }
-
+ }
     return dist[target_node];
 }
 
