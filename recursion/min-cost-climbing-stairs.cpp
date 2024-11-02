@@ -32,7 +32,7 @@ int stair_mem(int n, vector<int>&cost) {
 }
 
 int solve(vector<int>& cost) {
-    cost.push_back(0);
+ 
     return stair_mem(cost.size() - 1, cost);
 }
 
