@@ -1,12 +1,6 @@
 #include <iostream>
 #include <vector>
-int find(DSU dsu, int x) {
-    while (dsu.leader[x] != x) {
-        dsu.leader[x] = dsu.leader[dsu.leader[x]];
-        x = dsu.leader[x];
-    }
-    return x;
-}
+using namespace std;
 
 struct DSU {
 
