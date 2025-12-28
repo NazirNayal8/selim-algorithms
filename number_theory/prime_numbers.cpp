@@ -94,6 +94,8 @@ bool is_prime_sieve(int n) {
 // to obtain all primes up to N, we need O(N * sqrt(N)) time.
 // sieve algorithm is an algorithm that can generate all primes up to N in O(N log(log(N))) time.
 
+
+
 /* 
 Logarithm Function
 
